@@ -1,0 +1,3 @@
+[submodule "nanoindent-example"]
+	path = nanoindent-example
+	url = https://github.com/pmrv/nanoindent-example
