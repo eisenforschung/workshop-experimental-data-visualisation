@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+dependencies:
+  - pyiron=0.4.3
+  - pyiron_atomistics=0.2.9
+  - lammps=2021.02.10
+  - jupyter_contrib_nbextensions
+  - nglview=3.0.1
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-image
+  - hyperspy-base
+  - hyperspy
+  - papermill
+  - xlrd
+  - openpyxl
+  - pillow
+  - scipy
+  - seaborn
+  - voila
+  - matplotlib-scalebar
