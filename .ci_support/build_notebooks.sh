@@ -1,5 +1,5 @@
 #!/bin/bash
-bash binder/postBuild
+#bash binder/postBuild
 # execute notebooks
 current_dir=$(pwd)
 for dir in $current_dir/*/ ; do 
