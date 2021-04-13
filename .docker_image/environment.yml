@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+dependencies:
+  - jupyter_contrib_nbextensions
+  - numpy =1.20.2
+  - matplotlib =3.4.1
+  - pandas =1.2.4
+  - scikit-image =0.18.1
+  - hyperspy-base =1.6.2
+  - hyperspy =1.6.2
+  - xlrd 
+  - openpyxl
+  - pillow
+  - scipy =1.6.2
+  - seaborn
+  - voila
+  - matplotlib-scalebar
+  - papermill
