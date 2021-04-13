@@ -11,8 +11,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
-      - run: docker build -t eisenforshung/MPIE_STF_visualization_workshop:latest .docker_image/
-      - run: docker tag eisenforshung/MPIE_STF_visualization_workshop:latest eisenforshung/MPIE_STF_visualization_workshop:"$(date +%F)"
+      - run: docker build -t eisenforshung/mpie_stf_visualization_workshop:latest .docker_image/
+      - run: docker tag eisenforshung/mpie_stf_visualization_workshop:latest eisenforshung/mpie_stf_visualization_workshop:"$(date +%F)"
       - run: docker images
-      - run: docker push eisenforshung/MPIE_STF_visualization_workshop:latest
-      - run: docker push eisenforshung/MPIE_STF_visualization_workshop:"$(date +%F)"
+      - run: docker push eisenforshung/mpie_stf_visualization_workshop:latest
+      - run: docker push eisenforshung/mpie_stf_visualization_workshop:"$(date +%F)"
