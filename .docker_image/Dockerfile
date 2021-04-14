@@ -15,7 +15,6 @@ RUN conda install -y --quiet -c conda-forge mamba && \
     mamba clean --all -f -y
 
 USER root
-COPY start-singleuser.sh /usr/local/bin/
 RUN fix-permissions /home/$DOCKER_USER && \
     fix-permissions $CONDA_DIR
 # Switch back to pyiron to avoid accidental container runs as root
